@@ -1,12 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
+import Final from "./useState/final/3-useState-example-1";
 
 function App() {
-  useState();
-  useState();
-
   return (
     <div className="App">
-      <h1>hello hooks</h1>
+      <Final />
     </div>
   );
 }
