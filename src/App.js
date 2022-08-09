@@ -1,5 +1,5 @@
 import React from "react";
-import Final from "./useEffect/final/4-useEffect-example-2";
+import Final from "./3-useContext/final/1-useContext-basics";
 
 function App() {
   return (
