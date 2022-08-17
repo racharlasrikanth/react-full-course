@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
+import ChildComponent from "./ChildComponent";
 
-const Final = () => {
+const ParentComponent = () => {
   return (
     <div>
-      <h1>useContext</h1>
+      <h1>useContext Parent Component</h1>
+      <ChildComponent />
     </div>
   );
 };
 
-export default Final;
+export default ParentComponent;
