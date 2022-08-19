@@ -1,5 +1,5 @@
 import React from "react";
-import Final from "./4-useReducer/final/1-useRedcuer-basics";
+import Final from "./4-useReducer/final/2-useReducer-advanced";
 
 function App() {
   return (
