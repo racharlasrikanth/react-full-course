@@ -1,5 +1,5 @@
 import React from "react";
-import Final from "./4-useReducer/final/2-useReducer-advanced";
+import Final from "./6-useMemo/final/1-useMemo-ex1";
 
 function App() {
   return (
