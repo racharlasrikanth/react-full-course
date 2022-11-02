@@ -34,7 +34,7 @@ code {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
-nav {
+nav.primary-nav {
   padding: 20px;
   background-color: lightblue;
 }

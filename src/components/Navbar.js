@@ -11,7 +11,7 @@ function Navbar() {
 
   return (
     <div>
-      <nav>
+      <nav className="primary-nav">
         <NavLink style={navlinkStyles} to="/">
           Home
         </NavLink>
@@ -20,6 +20,9 @@ function Navbar() {
         </NavLink>
         <NavLink style={navlinkStyles} to="/contact">
           Contact
+        </NavLink>
+        <NavLink style={navlinkStyles} to="/projects">
+          Projects
         </NavLink>
       </nav>
     </div>
