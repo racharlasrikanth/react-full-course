@@ -34,3 +34,15 @@ code {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+nav {
+  padding: 20px;
+  background-color: lightblue;
+}
+nav a {
+  margin-right: 15px;
+}
+/* nav a.active {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+} */
