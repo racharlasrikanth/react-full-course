@@ -24,6 +24,9 @@ function Navbar() {
         <NavLink style={navlinkStyles} to="/projects">
           Projects
         </NavLink>
+        <NavLink style={navlinkStyles} to="/users">
+          Users
+        </NavLink>
       </nav>
     </div>
   );

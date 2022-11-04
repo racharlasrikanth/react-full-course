@@ -9,6 +9,8 @@ import NotFound from "./components/NotFound";
 import Projects from "./components/Projects";
 import FeaturedProjects from "./components/FeaturedProjects";
 import NewProjects from "./components/NewProjects.js";
+import Users from "./components/Users";
+import UserDetails from "./components/UserDetails";
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
           <Route path="featured" element={<FeaturedProjects />} />
           <Route path="new" element={<NewProjects />} />
         </Route>
+        <Route path="/users" element={<Users />} />
+        <Route path="/users/:userId" element={<UserDetails />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>

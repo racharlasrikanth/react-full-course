@@ -46,3 +46,17 @@ nav a {
   text-decoration: none;
   color: black;
 } */
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+@media screen and (min-width: 992px) {
+  .card-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+}
+.card {
+  background-color: lightblue;
+  padding: 10px;
+}
