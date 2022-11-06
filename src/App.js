@@ -1,10 +1,12 @@
 import React from "react";
-import Final from "./Fragments/final/Table";
+import Final from "./HigherOrderComp/final/ClickCounter";
+import Final2 from "./HigherOrderComp/final/HoverCounter";
 
 function App() {
   return (
     <div className="App">
-      <Final />
+      <Final name={"srikanth"} />
+      <Final2 />
     </div>
   );
 }
