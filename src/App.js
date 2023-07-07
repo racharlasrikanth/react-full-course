@@ -1,12 +1,14 @@
 import React from "react";
-import Final from "./HigherOrderComp/final/ClickCounter";
-import Final2 from "./HigherOrderComp/final/HoverCounter";
+import Index from "./1-useState/starter/4-useState-example-2"
 
 function App() {
   return (
     <div className="App">
-      <Final name={"srikanth"} />
-      <Final2 />
+      {/* <Final name={"srikanth"} />
+      <Final2 /> */}
+
+      <Index/>
+
     </div>
   );
 }

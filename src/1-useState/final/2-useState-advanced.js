@@ -16,9 +16,9 @@ const Index = () => {
     },
     {
       id: "35232fsf",
-      firstName: "don",
-      lastName: "seenu",
-      age: 24,
+      firstName: "Ashok Kumar",
+      lastName: "Dharanikota",
+      age: 20,
     },
   ];
   const [data, setData] = useState(intialArray);
